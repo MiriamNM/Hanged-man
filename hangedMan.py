@@ -15,20 +15,20 @@ time.sleep(2)
 
 print('Guess the word, put A if you want animal´s words or N if you what names of people')
 time.sleep(2)
-select_cat = input('Put the letter you chose: ')
+select_cat = input('Put the letter you choose: ')
 
 while True:
     if select_cat.lower() == 'a':
-        print('You chose the animals')
+        print('You choose the animals')
         word_secret = random.choice(dogs_names)
         break
     elif select_cat.lower() == 'n':
-        print('You chose names of people')
+        print('You choose names of people')
         word_secret = random.choice(dogs_names)
         break
     else:
-        print('Please chose one letter')
-        select_cat = input('Put the letter you chose: ')
+        print('Please choose one letter')
+        select_cat = input('Put the letter you choose: ')
 
 #lifes and start of play
 #lifes
